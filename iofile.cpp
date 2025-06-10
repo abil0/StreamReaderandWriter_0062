@@ -28,7 +28,7 @@ int main () {
     {
         while (getline(infile, baris))
         {
-            /* code */
+            cout << baris << '\n';
         }
         
     }
