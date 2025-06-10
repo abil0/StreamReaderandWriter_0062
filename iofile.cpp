@@ -4,7 +4,8 @@
 using namespace std;
 
 int main () {
-    string baris 
+    string baris ;
 
-    
+    ofstream outfile;
+    outfile.open("contohfile.txt");
 }
