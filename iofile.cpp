@@ -11,5 +11,8 @@ int main () {
 
     cout << ">= menulis file,\'q\' untuk keluar" << endl;
 
-    
+    while (true) {
+        cout << "- ";
+        getline(cin,baris);
+    }
 }
