@@ -23,5 +23,9 @@ int main () {
         outfile << baris << endl;
     
     }
+    outfile.close();
+    ifstream infile;
+    infile.open(NamaFile, ios::in);
+    cout << endl << ">= membuka dan membaca file " << endl;
     
 }
